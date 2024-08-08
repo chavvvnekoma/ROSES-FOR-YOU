@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise Roses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #c70039;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #c70039;
+            border-radius: 10px;
+        }
+        button {
+            background-color: #c70039;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #900c3f;
+        }
+    </style>
+</head>
+<body>
+    <h1>Surprise! Here Are Some Beautiful Roses!</h1>
+    <img src="https://pin.it/6tVR0zqz6" alt="Surprise Roses">
+    <br><br>
+    <button onclick="surprise()">Click for a Surprise!</button>
+
+    <script>
+        function surprise() {
+            alert("You just received a bouquet of roses! 🌹");
+        }
+    </script>
+</body>
+</html>
